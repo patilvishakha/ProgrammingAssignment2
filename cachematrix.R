@@ -8,7 +8,7 @@
 ## inverse, and get the value of the inverse respectively.
 
 makeCacheMatrix <- function(x = matrix()) {
-		m_inverse <- NULL
+	m_inverse <- NULL
         set <- function(y){
                 x <<- y
                 m_inverse <<- NULL
